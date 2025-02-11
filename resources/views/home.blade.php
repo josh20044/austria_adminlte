@@ -48,7 +48,7 @@
 
                 <ul class="list-group list-group-unbordered mb-3">
                     <li class="list-group-item">
-                        <b>Followers</b> <a class="float-right">132,973,322</a>
+                        <b>Followers</b> <a class="float-right">132,922,322</a>
                     </li>
                     <li class="list-group-item">
                         <b>Following</b> <a class="float-right">0</a>
