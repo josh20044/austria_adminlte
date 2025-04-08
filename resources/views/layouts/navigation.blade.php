@@ -39,6 +39,42 @@
             </li>
 
             <li class="nav-item">
+                <a href="{{ route('BSIT3A.lists') }}" class="nav-link">
+                    <i class="nav-icon far fa-address-card"></i>
+                    <p>
+                        {{ __('BSIT3A') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('student1') }}" class="nav-link">
+                    <i class="nav-icon far fa-address-card"></i>
+                    <p>
+                        {{ __('Student 1') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('student2') }}" class="nav-link">
+                    <i class="nav-icon far fa-address-card"></i>
+                    <p>
+                        {{ __('Student 2') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('student3') }}" class="nav-link">
+                    <i class="nav-icon far fa-address-card"></i>
+                    <p>
+                        {{ __('Student 3') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-circle nav-icon"></i>
                     <p>
