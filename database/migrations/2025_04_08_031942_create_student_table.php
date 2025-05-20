@@ -8,10 +8,15 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     * php artisan make:model name
+     * php artisan make:migration create_name_table
+     * php artisan migrate:refresh
      */
     public function up(): void
     {
         Schema::create('student', function (Blueprint $table) {
+            $table->id();
+            $table->string('student_id');
             $table->string("fname");
             $table->string("mname");
             $table->string("lname");
